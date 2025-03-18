@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace Pagination_Filtering_Sorting.Abstractions;
 public class PaginatiedList<T>(List<T> items, int pageNumber, int count, int pageSize)
